@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3065b4c9ba57e08f8d28c49b5a114bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3065b4c9ba57e08f8d28c49b5a114bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3065b4c9ba57e08f8d28c49b5a114bb = L.map(
+                "map_d3065b4c9ba57e08f8d28c49b5a114bb",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce2bda261a33ccc397935863a735a9dc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ce2bda261a33ccc397935863a735a9dc.addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+            var circle_marker_6c283d0668bf608f9e2cf4775f4a19c1 = L.circleMarker(
+                [40.7074, -74.0113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+        var popup_a85417856a35644cb060ed5bb7522ad5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec12ff16153e9e3d1d6cf6c74b9ddc82 = $(`<div id="html_ec12ff16153e9e3d1d6cf6c74b9ddc82" style="width: 100.0%; height: 100.0%;">Financial District: -12.51 orders</div>`)[0];
+                popup_a85417856a35644cb060ed5bb7522ad5.setContent(html_ec12ff16153e9e3d1d6cf6c74b9ddc82);
+            
+        
+
+        circle_marker_6c283d0668bf608f9e2cf4775f4a19c1.bindPopup(popup_a85417856a35644cb060ed5bb7522ad5)
+        ;
+
+        
+    
+    
+            var circle_marker_6a3b62f4bdbb997b6609f24820611a84 = L.circleMarker(
+                [40.8116, -73.9465],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+        var popup_0e25a3c1008be520081b02cd72f83131 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26f5989e5d4476a0beff045de993166e = $(`<div id="html_26f5989e5d4476a0beff045de993166e" style="width: 100.0%; height: 100.0%;">Harlem: -5.40 orders</div>`)[0];
+                popup_0e25a3c1008be520081b02cd72f83131.setContent(html_26f5989e5d4476a0beff045de993166e);
+            
+        
+
+        circle_marker_6a3b62f4bdbb997b6609f24820611a84.bindPopup(popup_0e25a3c1008be520081b02cd72f83131)
+        ;
+
+        
+    
+    
+            var circle_marker_01bff5790b6ea2c7cfb3966f9b27da1c = L.circleMarker(
+                [40.7549, -73.984],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+        var popup_4bdb6a0e99157ba3a9fe3637ef086e74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74ef8966193e85167469efd0ad0e643c = $(`<div id="html_74ef8966193e85167469efd0ad0e643c" style="width: 100.0%; height: 100.0%;">Mid Town: -14.16 orders</div>`)[0];
+                popup_4bdb6a0e99157ba3a9fe3637ef086e74.setContent(html_74ef8966193e85167469efd0ad0e643c);
+            
+        
+
+        circle_marker_01bff5790b6ea2c7cfb3966f9b27da1c.bindPopup(popup_4bdb6a0e99157ba3a9fe3637ef086e74)
+        ;
+
+        
+    
+    
+            var circle_marker_7630d31f38bc70e8235ef41ae6241276 = L.circleMarker(
+                [40.7736, -73.9566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+        var popup_074d2fcb4747e100d954e5e7c7f6780e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97c3de0aca7f43fb651a802290e5c329 = $(`<div id="html_97c3de0aca7f43fb651a802290e5c329" style="width: 100.0%; height: 100.0%;">Upper East Side: -3.71 orders</div>`)[0];
+                popup_074d2fcb4747e100d954e5e7c7f6780e.setContent(html_97c3de0aca7f43fb651a802290e5c329);
+            
+        
+
+        circle_marker_7630d31f38bc70e8235ef41ae6241276.bindPopup(popup_074d2fcb4747e100d954e5e7c7f6780e)
+        ;
+
+        
+    
+    
+            var circle_marker_b8608acd5a65e1bbde027b020908c91d = L.circleMarker(
+                [40.787, -73.9754],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_d3065b4c9ba57e08f8d28c49b5a114bb);
+        
+    
+        var popup_661a5ce97cf627908f211cc36f0c7442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba260bfb716ba894477e8e3927ab7477 = $(`<div id="html_ba260bfb716ba894477e8e3927ab7477" style="width: 100.0%; height: 100.0%;">Upper West Side: -5.45 orders</div>`)[0];
+                popup_661a5ce97cf627908f211cc36f0c7442.setContent(html_ba260bfb716ba894477e8e3927ab7477);
+            
+        
+
+        circle_marker_b8608acd5a65e1bbde027b020908c91d.bindPopup(popup_661a5ce97cf627908f211cc36f0c7442)
+        ;
+
+        
+    
+</script>
+</html>
